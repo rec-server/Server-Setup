@@ -1,0 +1,9 @@
+{
+  "hosts": ["tcp://0.0.0.0:12375", "unix:///var/run/docker.sock"],
+  "runtimes": {
+        "nvidia": {
+            "path": "/usr/bin/nvidia-container-runtime",
+            "runtimeArgs": []
+        }
+    }
+}
